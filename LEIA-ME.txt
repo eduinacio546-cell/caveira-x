@@ -1,0 +1,19 @@
+CAVEIRA X - versão celular (PWA)
+
+O celular só abre o microfone em páginas HTTPS (ou localhost). Por isso o arquivo não funciona abrindo direto do celular: hospede a pasta de graça.
+
+OPÇÃO 1 - Netlify Drop (mais fácil)
+1. Abra app.netlify.com/drop no computador.
+2. Arraste a pasta caveira-x-mobile para a página.
+3. Abra o link gerado (https) no celular.
+
+OPÇÃO 2 - GitHub Pages ou Cloudflare Pages: envie estes arquivos para um repositório e ative o Pages.
+
+INSTALAR COMO APP
+- Android (Chrome): menu ⋮ > Instalar app / Adicionar à tela inicial.
+- iPhone (Safari): Compartilhar > Adicionar à Tela de Início.
+
+LIMITES DO CELULAR
+- Não existe VB-CABLE no celular: o áudio sai pelo alto-falante, fones ou Bluetooth. O app não envia a voz para Discord, WhatsApp ou chamadas.
+- O navegador pausa o microfone se a tela apagar ou você trocar de app (a tela fica ligada enquanto processa).
+- Use fones: ganho alto no alto-falante causa microfonia.
